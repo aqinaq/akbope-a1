@@ -75,7 +75,8 @@ size,time_ms,comp,alloc,maxdepth
 
 Plots
 
-Time vs N → shows MergeSort & QuickSort as n log n, Select close to linear.
+## Time vs N 
+shows MergeSort & QuickSort as n log n, Select close to linear.
 Max recursion depth vs N → matches log n for MergeSort, QuickSort, Closest Pair.
 Constant factors → cache effects, insertion sort cutoff, in-place partitions.
 Time vs N
