@@ -18,7 +18,7 @@ Collect metrics from real runs and show plots.
 Write a short but clear report.
 
 ## Algorithms
-1. MergeSort (msort.java) (Θ(n log n))
+## 1. MergeSort (msort.java) (Θ(n log n))
 
 Idea: split array into halves, sort each half, then merge.
 
