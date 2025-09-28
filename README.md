@@ -50,7 +50,7 @@ Recurrence:
 T(n) = T(n/5) + T(7n/10) + Θ(n) → Θ(n).
 Depth: logarithmic, smaller than sorting.
 
-4. Closest Pair of Points (pairofpoint.java) (Θ(n log n))
+## 4. Closest Pair of Points (pairofpoint.java) (Θ(n log n))
 
 Idea:
 Sort points by x, then split.
