@@ -1,6 +1,6 @@
 package algorithms;
 public class deterministic {
-    public static class Metrics {
+    public static class Metrics extends util.Metrics {
         public long comparisons = 0;
         public long swaps = 0;
         public long maxDepth = 0;

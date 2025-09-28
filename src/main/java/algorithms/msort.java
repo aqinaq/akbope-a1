@@ -39,7 +39,6 @@ public class msort {
         while (j <= right) buffer[k++] = arr[j++];
         for (int t = left; t <= right; t++) arr[t] = buffer[t];
     }
-
     private void insertionSort ( int[] arr, int left, int right){
         for (int i = left + 1; i <= right; i++) {
             int key = arr[i];

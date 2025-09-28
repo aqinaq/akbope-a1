@@ -21,6 +21,7 @@ class deterministicTest {
             System.out.println("trial " + trial + ": length=" + n + ", min=" + Arrays.stream(arr).min().orElse(0) + ", max=" + Arrays.stream(arr).max().orElse(0));
         }
     }
+
     @Test
     void testAllEqual() {
         int[] arr = new int[10];

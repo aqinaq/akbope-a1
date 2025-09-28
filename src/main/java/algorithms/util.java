@@ -69,7 +69,7 @@ public class util {
     public static void guardIndex(int n, int k) {
         if (k < 0 || k >= n) throw new IllegalArgumentException("k out of bounds");
     }
-    public static class Metrics {
+    public static class Metrics extends robust.Metrics {
         public long comparisons = 0;
         public long swaps = 0;
         public long maxDepth = 0;
